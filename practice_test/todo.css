@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Creepster&family=Eczar:wght@400;500&family=Moon+Dance&family=Neuton:ital,wght@0,200;1,400&family=PT+Serif&family=Patua+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Wet+Paint&display=swap');
+
+*{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.main-div{
+  display: flex;
+  flex-direction: row;
+}
+.Total-Div{
+  width: 50%;
+  padding: 5rem 0rem 0px 5rem;
+  
+}
+.todos-heading {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.create-task-heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+.create-task-heading-subpart {
+
+  font-size: 32px;
+  font-weight: 500;
+}
+.todo-items-heading {
+
+  font-size: 32px;
+  font-weight: 700;
+}
+.todo-items-heading-subpart {
+
+  font-size: 32px;
+  font-weight: 500;
+}
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+.todo-item-container {
+  margin-top: 15px;
+}
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+.add-todo-button {
+  color: white;
+  background-color: #e99a32;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.label-container {
+  background-color:#365ccd;
+  width: 100%;
+  height:3rem;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color:#e99a32;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.checkbox-label {
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+.delete-icon {
+  padding: 15px;
+}
+.checked{
+    text-decoration: 5px solid line-through #B23A50;
+}
+.button{
+  color: white;
+  background-color: #e99a32;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.img1{
+  width: 50%;
+}
+.img1 img{
+  width:100%;
+}
+.time_Date{
+  display: flex;
+  align-items:flex-end;
+  justify-content: flex-end;
+  padding-top: 10px;
+  width: 100%;
+}
+.totalTime{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 0rem;
+}
+.DateText{
+  font-size: 5rem;
+  color: rgb(238, 93, 31);
+  font-weight: 800;
+}
+.monthText{
+  font-weight:900;
+  padding-top: 10px;
+
+}
+.Total-Div{
+  margin-bottom:1rem;
+}
+.total-timeSet{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#Day{
+  font-size: 1.5rem;
+  color:rgb(238, 93, 31) ;
+  font-weight: 800;
+}
+
+@media screen and (max-width:768px){
+  .main-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .img1{
+    width: 100%;
+  }
+  .Total-Div{
+    width: 100%;
+    padding: 2rem;
+  }
+}
