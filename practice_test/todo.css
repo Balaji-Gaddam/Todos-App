@@ -182,4 +182,18 @@
     width: 100%;
     padding: 2rem;
   }
+   .checkbox-label {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 0px;
+    border-radius: 5px;
+  }
+  .time_Date{
+    font-size: 9px;
+  }
 }
